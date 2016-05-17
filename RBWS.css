@@ -24,6 +24,9 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
+
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-delay: 2s;	
 }
 
 h5 {
@@ -59,4 +62,22 @@ footer{
 ul.smellylist li{
 	display:inline-block;
 	padding-right: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,0,0.4);
+	padding: 10px;
+}
+
+a:hover {
+	color: rgba(0,0,0,0.8);
+	position: relative;
+	top: 1px;
+}
+
+a:active {
+	color: rgba(0,0,0,1);	
+	position: relative;
+	top: 2px;	
 }
