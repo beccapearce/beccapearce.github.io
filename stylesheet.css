@@ -1,0 +1,64 @@
+body{
+	font-family: 'Special Elite', cursive;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto;
+	width:60%;
+}
+
+h1 {
+	font-size: 350%;
+	margin-bottom:0em;
+}
+
+h5 {
+	margin-top:0em;
+	margin-bottom:0.1em;
+}
+
+h6 {
+	margin-top:0em;
+	margin-bottom:1em;
+}
+
+#info_title{
+	margin-bottom: 7px;
+}
+
+#description{
+	margin-bottom: 12px;
+}
+
+#footer{
+	margin: 0px auto;
+	position: absolute;
+	font-size: 70%;
+	bottom:0;
+	text-align: center;
+}
+
+ul.navbar li{
+	display:inline-block;
+	padding-right: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,0,0.4);
+	padding: 10px;
+}
+
+a:hover {
+	color: rgba(0,0,0,0.8);
+	position: relative;
+	top: 1px;
+}
+
+a:active {
+	color: rgba(0,0,0,1);
+	position: relative;
+	top: 2px;
+}
