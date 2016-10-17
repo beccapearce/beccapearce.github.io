@@ -10,6 +10,7 @@ body{
   margin-top: 7%;
 	justify-content: center;
 	margin-bottom: 60px;
+	position: relative;
 }
 
 h1 {
@@ -38,12 +39,12 @@ h6 {
 }
 
 #footer{
-	position: absolute;
+  position: relative;
+  margin-top: -40px; /* negative value of footer height */
+  height: 40px;
+  clear: both;
 	font-size: 70%;
-	bottom:0;
-	width: 100%;
 	text-align: center;
-	height: 60px;
 }
 
 ul.navbar li{
