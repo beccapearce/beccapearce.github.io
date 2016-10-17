@@ -39,12 +39,14 @@ h6 {
 }
 
 #footer{
+	display: flex;
   position: relative;
   margin-top: -40px; /* negative value of footer height */
   height: 40px;
   clear: both;
 	font-size: 70%;
-	text-align: center;
+	justify-content: center;
+	width: 100%;
 }
 
 ul.navbar li{
