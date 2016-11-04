@@ -1,5 +1,8 @@
 body{
 	font-family: 'Special Elite', cursive;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
 #content {
@@ -7,10 +10,11 @@ body{
 	flex-direction: column;
 	margin: 0px auto;
 	width:60%;
-  margin-top: 7%;
+  /*margin-top: 7%;*/
 	justify-content: center;
 	margin-bottom: 60px;
 	position: relative;
+	flex: 1 0 auto;
 }
 
 h1 {
